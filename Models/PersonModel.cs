@@ -11,3 +11,5 @@ namespace wealthKernelApp.Models
     public bool IsAlive { get; set; } = true;
   }
 }
+
+
