@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/modestas/development/codeTests/dotNetMVC/wealthKernelApp.csproj": {}
+    "/Users/modestas/development/codeTests/wealthKernelApp/wealthKernelApp.csproj": {}
   },
   "projects": {
-    "/Users/modestas/development/codeTests/dotNetMVC/wealthKernelApp.csproj": {
+    "/Users/modestas/development/codeTests/wealthKernelApp/wealthKernelApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/modestas/development/codeTests/dotNetMVC/wealthKernelApp.csproj",
+        "projectUniqueName": "/Users/modestas/development/codeTests/wealthKernelApp/wealthKernelApp.csproj",
         "projectName": "wealthKernelApp",
-        "projectPath": "/Users/modestas/development/codeTests/dotNetMVC/wealthKernelApp.csproj",
+        "projectPath": "/Users/modestas/development/codeTests/wealthKernelApp/wealthKernelApp.csproj",
         "packagesPath": "/Users/modestas/.nuget/packages/",
-        "outputPath": "/Users/modestas/development/codeTests/dotNetMVC/obj/",
+        "outputPath": "/Users/modestas/development/codeTests/wealthKernelApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/modestas/.nuget/NuGet/NuGet.Config"
