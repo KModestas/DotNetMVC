@@ -43,10 +43,12 @@ namespace wealthKernelApp
 
       app.UseAuthorization();
 
+      // ROUTING
       app.UseEndpoints(endpoints =>
       {
         endpoints.MapControllerRoute(
                   name: "default",
+                  // use Home controller / Index as the default
                   pattern: "{controller=Home}/{action=Index}/{id?}");
       });
     }

@@ -19,6 +19,7 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
+                            @* asp-controller and asp-actions tell link which controller / property to trigger when clicked *@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
@@ -30,6 +31,7 @@
         </nav>
     </header>
     
+    @* all of your Pages (or views) are rendered within here  *@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -44,6 +46,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    // 
     @RenderSection("Scripts", required: false)
 </body>
 </html>
