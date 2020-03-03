@@ -1,11 +1,11 @@
-@model IEnumerable<wealthKernelApp.Models.Lesson>
+@* import the LessonModel which also has a nested Module Model *@
+@model IEnumerable<wealthKernelApp.Models.LessonModel>
 
 @{
   ViewData["Title"] = "All Lessons";
 }
 
 <h2>ALL LESSONS</h2>
-
 
 <table class="table">
   <tr>
@@ -24,7 +24,6 @@
     <td>
       @Html.DisplayFor(modelItem => item.Slug)
     </td>
-
     <td>
       @foreach (var m in item.Modules) {
         <p>@m.Title</p>
