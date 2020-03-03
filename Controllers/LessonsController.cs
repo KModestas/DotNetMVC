@@ -16,22 +16,15 @@ namespace wealthKernelApp.Controllers
     // When you go to /Lessons, return a list of all lessons
     public async Task<ActionResult> Index()
     {
-
-      //   declare a list for lessons 
-      //   List<Lesson> lessons = new List<Lesson>();       
-
       var httpClient = new System.Net.Http.HttpClient();
       var _client = new ContentfulClient(httpClient, "TJUTn86tuAZZ0L4Aw1LmA2HUBWNoU2TBHeCghBWJTac", "XsWxHVfA6Mu5yO2rlMf_IlrmIxfy5nAnFPraPg5LGc0", "dgv1c069l5im");
 
-      //   var entries = await client.GetEntries<dynamic>();
-      //   var entry = await client.GetEntry<Lesson>("lesson");
+
       var contentType = await _client.GetContentType("lesson");
 
       var entries = await _client.GetEntriesByType<Lesson>("lesson");
 
       return View(entries);
-
-      //   return View(staticLessons);
     }
 
   }
