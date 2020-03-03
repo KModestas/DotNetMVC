@@ -1,4 +1,5 @@
-
+// system MUST be imported if you want to Console.WriteLine anything
+using System;
 namespace wealthKernelApp.Models
 {
   public class PersonModel

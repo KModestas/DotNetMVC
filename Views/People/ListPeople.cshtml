@@ -11,6 +11,7 @@
 
 <table class="table">
   <tr>
+    @* DisplayNameFor pertains to the NAME of the property *@
     <th>@Html.DisplayNameFor(model => model.FirstName)</th>
     <th>@Html.DisplayNameFor(model => model.LastName)</th>
     <th>@Html.DisplayNameFor(model => model.Age)</th>
@@ -23,6 +24,7 @@
 @foreach (var item in Model) {
   <tr>
     <td>
+       @* DisplayFor pertains to the VALUE of the property *@
       @Html.DisplayFor(modelItem => item.FirstName)
     </td>
     <td>

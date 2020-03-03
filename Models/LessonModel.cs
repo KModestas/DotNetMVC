@@ -1,3 +1,4 @@
+using System;
 namespace wealthKernelApp.Models
 {
   public class Module
