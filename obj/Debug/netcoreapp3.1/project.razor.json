@@ -20544,6 +20544,11 @@
       "FilePath": "/Users/modestas/development/codeTests/wealthKernelApp/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views/Shared/_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/modestas/development/codeTests/wealthKernelApp/Views/Lessons/Index.cshtml",
+      "TargetPath": "Views/Lessons/Index.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
