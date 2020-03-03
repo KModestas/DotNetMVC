@@ -20531,6 +20531,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/modestas/development/codeTests/wealthKernelApp/Views/People/index.cshtml",
+      "TargetPath": "Views/People/index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/modestas/development/codeTests/wealthKernelApp/Views/People/ListPeople.cshtml",
+      "TargetPath": "Views/People/ListPeople.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/modestas/development/codeTests/wealthKernelApp/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views/Shared/_Layout.cshtml",
       "FileKind": "mvc"

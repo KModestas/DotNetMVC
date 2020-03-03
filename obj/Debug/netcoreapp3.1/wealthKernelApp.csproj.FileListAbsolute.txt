@@ -373,3 +373,5 @@
 /Users/modestas/development/codeTests/wealthKernelApp/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/modestas/development/codeTests/wealthKernelApp/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/modestas/development/codeTests/wealthKernelApp/obj/Debug/netcoreapp3.1/wealthKernelApp.MvcApplicationPartsAssemblyInfo.cs
+/Users/modestas/development/codeTests/wealthKernelApp/obj/Debug/netcoreapp3.1/Razor/Views/People/Index.cshtml.g.cs
+/Users/modestas/development/codeTests/wealthKernelApp/obj/Debug/netcoreapp3.1/Razor/Views/People/ListPeople.cshtml.g.cs

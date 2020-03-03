@@ -1,0 +1,39 @@
+@* specify which model this view is using *@
+@model IEnumerable<wealthKernelApp.Models.PersonModel>
+@{
+  ViewData["Title"] = "People";
+}
+
+<h2>List People</h2>
+
+@* Action link for creating a new person *@
+@* <p>@Html.ActionLink("Create New", "Create")</p> *@
+
+<table class="table">
+  <tr>
+    <th>@Html.DisplayNameFor(model => model.FirstName)</th>
+    <th>@Html.DisplayNameFor(model => model.LastName)</th>
+    <th>@Html.DisplayNameFor(model => model.Age)</th>
+    <th>@Html.DisplayNameFor(model => model.IsAlive)</th>
+  </tr>
+
+
+
+ @* loop over each person in the person model and display their data in table  *@
+@foreach (var item in Model) {
+  <tr>
+    <td>
+      @Html.DisplayFor(modelItem => item.FirstName)
+    </td>
+    <td>
+      @Html.DisplayFor(modelItem => item.LastName)
+    </td>
+    <td>
+       @Html.DisplayFor(modelItem => item.Age)
+    </td>
+    <td>
+      @Html.DisplayFor(modelItem => item.IsAlive)
+    </td>
+  </tr>
+}
+</table>
