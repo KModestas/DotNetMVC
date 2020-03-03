@@ -1,4 +1,5 @@
-@* specify which model this view is using *@
+@* @ you can access the PersonModel data by referencing Model *@
+@* specify which model this view is tied to  *@
 @model IEnumerable<wealthKernelApp.Models.PersonModel>
 @{
   ViewData["Title"] = "People";
@@ -17,8 +18,6 @@
     <th>@Html.DisplayNameFor(model => model.Age)</th>
     <th>@Html.DisplayNameFor(model => model.IsAlive)</th>
   </tr>
-
-
 
  @* loop over each person in the person model and display their data in table  *@
 @foreach (var item in Model) {

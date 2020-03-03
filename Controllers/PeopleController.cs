@@ -15,10 +15,10 @@ namespace wealthKernelApp.Controllers
 
     public ActionResult ListPeople()
     {
-      // create a list of people 
+      // declare a list for people 
       List<PersonModel> people = new List<PersonModel>();
 
-      // add new people to list
+      // add new people to list (I assume you would make a request for data to the db in a real app)
       people.Add(new PersonModel { FirstName = "Tim", LastName = "Timson", Age = 10 });
       people.Add(new PersonModel { FirstName = "Jen", LastName = "Jenson", Age = 19 });
       people.Add(new PersonModel { FirstName = "John", LastName = "Jonhson", Age = 30 });
