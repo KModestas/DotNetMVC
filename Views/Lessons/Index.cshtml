@@ -4,7 +4,34 @@
   ViewData["Title"] = "All Lessons";
 }
 
-<h2>Lessons INDEX</h2>
-<p>@Html.DisplayNameFor(model => model.Title)</p>
-<p>@Html.DisplayNameFor(model => model.Slug)</p>
+<h2>ALL LESSONS</h2>
+
+
+<table class="table">
+  <tr>
+    @* DisplayNameFor pertains to the NAME of the property *@
+    <th>@Html.DisplayNameFor(model => model.Title)</th>
+    <th>@Html.DisplayNameFor(model => model.Slug)</th>
+  </tr>
+
+ @* loop over each person in the person model and display their data in table  *@
+@foreach (var item in Model) {
+  <tr>
+    <td>
+       @* DisplayFor pertains to the VALUE of the property *@
+      @Html.DisplayFor(modelItem => item.Title)
+    </td>
+    <td>
+      @Html.DisplayFor(modelItem => item.Slug)
+    </td>
+
+    <td>
+      @foreach (var m in item.Modules) {
+        <p>@m.Title</p>
+        <b>@m.Copy</b>
+      }
+    </td>
+  </tr>
+}
+</table>
 

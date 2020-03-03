@@ -57,8 +57,6 @@ namespace wealthKernelApp.Controllers
     }
     };
 
-      Console.WriteLine("staticLessons ", staticLessons);
-
       return View(staticLessons);
     }
 
