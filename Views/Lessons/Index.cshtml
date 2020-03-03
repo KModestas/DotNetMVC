@@ -2,35 +2,22 @@
 @model IEnumerable<wealthKernelApp.Models.Lesson>
 
 @{
-  ViewData["Title"] = "All Lessons";
+  ViewData["Title"] = "Lessons";
 }
 
-<h2>ALL LESSONS</h2>
+<div class="container-fluid">
+  <h1>LESSONS</h1>
+   @foreach (var lesson in Model) {
 
-<table class="table">
-  <tr>
-    @* DisplayNameFor pertains to the NAME of the property *@
-    <th>@Html.DisplayNameFor(model => model.Title)</th>
-    <th>@Html.DisplayNameFor(model => model.Slug)</th>
-  </tr>
-
- @* loop over each person in the person model and display their data in table  *@
-@foreach (var item in Model) {
-  <tr>
-    <td>
-       @* DisplayFor pertains to the VALUE of the property *@
-      @Html.DisplayFor(modelItem => item.Title)
-    </td>
-    <td>
-      @Html.DisplayFor(modelItem => item.Slug)
-    </td>
-    <td>
-      @foreach (var m in item.Modules) {
-        <p>@m.Title</p>
-        <b>@m.Copy</b>
+    <h3>@lesson.Title</h3>
+    @* <h4>@lesson.Slug</h4> *@
+    <ul>
+      @foreach (var module in lesson.Modules) {
+          <li>
+            <b>@module.Title</b>
+            <p>@module.Copy</p>
+         </li>
       }
-    </td>
-  </tr>
+    </ul>
 }
-</table>
-
+</div>
