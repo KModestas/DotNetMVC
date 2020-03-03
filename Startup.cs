@@ -48,8 +48,8 @@ namespace wealthKernelApp
       {
         endpoints.MapControllerRoute(
                   name: "default",
-                  // use Home controller / Index as the default
-                  pattern: "{controller=Home}/{action=Index}/{id?}");
+                  // use Lessons controller / Index as the default
+                  pattern: "{controller=Lessons}/{action=Index}/{id?}");
       });
     }
   }
