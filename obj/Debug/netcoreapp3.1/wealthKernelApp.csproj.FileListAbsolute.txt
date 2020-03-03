@@ -376,3 +376,8 @@
 /Users/modestas/development/codeTests/wealthKernelApp/obj/Debug/netcoreapp3.1/Razor/Views/People/Index.cshtml.g.cs
 /Users/modestas/development/codeTests/wealthKernelApp/obj/Debug/netcoreapp3.1/Razor/Views/People/ListPeople.cshtml.g.cs
 /Users/modestas/development/codeTests/wealthKernelApp/obj/Debug/netcoreapp3.1/Razor/Views/Lessons/Index.cshtml.g.cs
+/Users/modestas/development/codeTests/wealthKernelApp/bin/Debug/netcoreapp3.1/Contentful.Core.dll
+/Users/modestas/development/codeTests/wealthKernelApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/modestas/development/codeTests/wealthKernelApp/bin/Debug/netcoreapp3.1/Contentful.AspNetCore.dll
+/Users/modestas/development/codeTests/wealthKernelApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/Users/modestas/development/codeTests/wealthKernelApp/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
