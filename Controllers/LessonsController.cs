@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using wealthKernelApp.Models;
+using Contentful.Core;
 
 namespace wealthKernelApp.Controllers
 {
@@ -12,7 +13,7 @@ namespace wealthKernelApp.Controllers
     {
 
       var httpClient = new System.Net.Http.HttpClient();
-      //   var client = new ContentfulClient(httpClient, "TJUTn86tuAZZ0L4Aw1LmA2HUBWNoU2TBHeCghBWJTac", "XsWxHVfA6Mu5yO2rlMf_IlrmIxfy5nAnFPraPg5LGc0", "dgv1c069l5im");
+      var client = new ContentfulClient(httpClient, "TJUTn86tuAZZ0L4Aw1LmA2HUBWNoU2TBHeCghBWJTac", "XsWxHVfA6Mu5yO2rlMf_IlrmIxfy5nAnFPraPg5LGc0", "dgv1c069l5im");
 
       // create a list of lessons containing modules 
       var staticLessons = new Lesson[]
