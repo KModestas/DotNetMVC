@@ -7,6 +7,7 @@ namespace wealthKernelApp.Controllers
 {
   public class LessonsController : Controller
   {
+    // When you go to /Lessons, return a list of all lessons
     public ActionResult Index()
     {
 

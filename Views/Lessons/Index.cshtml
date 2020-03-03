@@ -1,6 +1,10 @@
+@model IEnumerable<wealthKernelApp.Models.Lesson>
+
 @{
-  ViewData["Title"] = "People";
+  ViewData["Title"] = "All Lessons";
 }
 
 <h2>Lessons INDEX</h2>
+<p>@Html.DisplayNameFor(model => model.Title)</p>
+<p>@Html.DisplayNameFor(model => model.Slug)</p>
 
