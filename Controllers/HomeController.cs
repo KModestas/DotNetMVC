@@ -20,6 +20,7 @@ namespace wealthKernelApp.Controllers
 
     public IActionResult Index()
     {
+      var name = "mod";
       return View();
     }
 
