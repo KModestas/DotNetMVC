@@ -1,5 +1,18 @@
+@* import the Lesson Model which also has a nested Module Model *@
+@model IEnumerable<wealthKernelApp.Models.Lesson>
 
-<div class="text-center">
-    <h1 class="display-4">@ViewData["slug"]<h1>
-    <p>The time on the server is @DateTime.Now</p>
-</div>
+@{
+ViewData["Title"] = ViewData["slug"];
+}
+  
+   @foreach (var lesson in Model) {
+    <h3>@lesson.Title</h3>
+    <ul>
+      @foreach (var module in lesson.Modules) {
+          <li>
+            <b>@module.Title</b>
+            <p>@module.Copy</p>
+         </li>
+      }
+    </ul>
+   }
