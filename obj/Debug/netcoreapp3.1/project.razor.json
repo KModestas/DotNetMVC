@@ -21028,6 +21028,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/modestas/development/codeTests/wealthKernelApp/Views/Lessons/Lesson.cshtml",
+      "TargetPath": "Views/Lessons/Lesson.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/modestas/development/codeTests/wealthKernelApp/Views/Home/Index.cshtml",
       "TargetPath": "Views/Home/Index.cshtml",
       "FileKind": "mvc"

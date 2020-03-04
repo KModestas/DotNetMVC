@@ -8,7 +8,7 @@
   <h1>LESSONS</h1>
    @foreach (var lesson in Model) {
     <h3>@lesson.Title</h3>
-    @* <h4>@lesson.Slug</h4> *@
+    <a class="nav-link">@Html.ActionLink("Go to Lesson", "Lesson", new {@slug=@lesson.Slug})</a>
     <ul>
       @foreach (var module in lesson.Modules) {
           <li>
